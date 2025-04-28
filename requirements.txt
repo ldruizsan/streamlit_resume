@@ -1,3 +1,4 @@
+pip install -upgrade pip
 streamlit = 1.40.1
 Pillow = 8.2.0
 pathlib2 = 2.3.5
