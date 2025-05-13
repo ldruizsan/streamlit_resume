@@ -41,7 +41,7 @@ PROJECTS = {
         "link": "https://gist.github.com/ldruizsan/56cbce888b288daefd14a27d73c8b479",
         "tags": ["Python", "Data Analysis", "Visualization", "Jupyter Notebook"]
     },
-    "Cloud deployment of a web app - Automated deployment of a serverless e-commerce store using AWS CodeBuild": {
+    "Cloud deployment - Automated deployment of a serverless e-commerce store using AWS CodeBuild": {
         "link": "https://github.com/ldruizsan/cloudmart",
         "tags": ["AWS", "Docker", "AWS EC2", "Serverless", "AWS EKS", "Terraform", "DynamoDB","AWS CodeBuild"]
     },
@@ -130,7 +130,19 @@ st.write("""
 # PROJECTS
 st.write("---")
 st.subheader("Projects")
-for project, details in PROJECTS.items():
-    st.write(f"[{project}]({details['link']})")
-    st.write("**Tools:** " + ", ".join(details["tags"]))
-    st.divider()
+
+# Create a grid with 3 columns
+columns = st.columns(3, gap="medium")  # 3 columns with medium spacing
+
+for index, (project, details) in enumerate(PROJECTS.items()):
+    col = columns[index % 3]
+    with col:
+        st.markdown(
+            f"""
+            <div class="project-tile">
+                <a href="{details['link']}" style="font-size: 16px; font-weight: bold; text-decoration: none; color: #d22682;">{project}</a>
+                <p style="margin: 5px 0; font-size: 14px;"><strong>Tools:</strong> {", ".join(details["tags"])}</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )

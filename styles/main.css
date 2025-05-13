@@ -19,3 +19,15 @@ hr {
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden}
 header {visibility: hidden}
+
+.project-tile {
+    height: 200px;
+    padding: 10px;
+    border: 2px solid #d22682;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #080000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
