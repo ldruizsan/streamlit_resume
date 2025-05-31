@@ -25,6 +25,14 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
+    "Pet Medication Calendar - Streamlit app to track pet medication schedules": {
+        "link": "https://github.com/ldruizsan/PetMedicationCalendar",
+        "tags": ["Streamlit", "Python", "Data Visualization", "Web App"]
+    },
+    "AI Agents in Chemical Engineering - Agent swarm for chemical engineering problem solving, with RAG system": {
+        "link": "https://github.com/ldruizsan/chem_eng_agents",
+        "tags": ["Python", "AI Agents", "RAG", "Chemical Engineering"]
+    },
     "Airline Sentiment Analysis - Streamlit app showing sentiment analysis from user tweets": {
         "link": "https://airlines-sentiment-001.streamlit.app/",
         "tags": ["Streamlit", "Python", "NLP", "Sentiment Analysis"]
