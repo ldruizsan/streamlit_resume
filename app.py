@@ -116,16 +116,16 @@ st.write("---")
 st.subheader("Work History")
 st.write("**Technology Architect Analyst | Accenture**")
 st.write("06/2022 - 12/2024")
-st.write(
+st.markdown(
     """
     - Staffed across client engagements in digital transformation, cloud migration, and systems modernization for clients in the finance, fast food, and retails sectors
-    - Spearheaded documentation and testing frameworks for a multiplatform SaaS application, including authoring dozens of user stories for QA teams, create a Product Playbook detailing feature entry points, cross-platform workflows, and ideal user paths to drive testing efficiency, and develop a Testing Matrix to standardize post-release validation, reduce duplication risk. Progress was tracked using <span class="highlight">Jira</span>
+    - Spearheaded documentation and testing frameworks for a multiplatform SaaS application, including authoring dozens of user stories for QA teams, create a Product Playbook detailing feature entry points, cross-platform workflows, and ideal user paths to drive testing efficiency, and develop a Testing Matrix to standardize post-release validation, reduce duplication risk. Progress was tracked using Jira
     - Led data validation and cleanup for legacy system modernization, ensuring accuracy for cloud migration, identify data gaps by comparing transaction logs to application outputs
     - Revamped training documentation, and design a database workflow diagram to accelerate onboarding of client teams
     - Managed client-facing slides for sprint progress, risks, and blockers to improve transparency and maintain communication
-    - Monitored 20+ Linux servers for SLA compliance to ensure uptime, resolve critical issues, and deploy patches as well as automate alerts via ServiceNow and reduce response time through ServiceNow
+    - Monitored 20+ Linux servers for SLA compliance to ensure uptime, resolve critical issues, and deploy patches as well as automate alerts via ServiceNow and reduce response time.
     """
-) #, unsafe_allow_html=True # Add this if you are using st.markdown instead of st.write
+, unsafe_allow_html=True) #, unsafe_allow_html=True # Add this if you are using st.markdown instead of st.write
 
 st.write("**Fulfillment Center Associate I | Amazon**")
 st.write("09/2021 - 04/2022")
