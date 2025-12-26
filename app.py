@@ -132,11 +132,12 @@ st.markdown(
 , unsafe_allow_html=True) #, unsafe_allow_html=True # Add this if you are using st.markdown instead of st.write
 
 st.write("**Fulfillment Center Associate I | Amazon**")
-st.write("09/2021 - 04/2022")
+st.write("09/2021 - 04/2022 | 11/2025 - Current")
 st.write("""
-    - Ensure fast and accurate transfer of 2000-2500 items per day from inventory to packaging with a low DPMO count
-    - Stow items to add them to inventory, perform simple quality test to ensure the number of items in a bin match what is shown on the website, and pack the items securely for shipment
-    - Follow 5S guidelines to maintain a clean and safe work station
+    - Executed high-volume order fulfillment, picking 2,500–3,500 items daily while maintaining a low Defects Per Million Opportunities (DPMO) rate
+    - Conducted quality assurance audits (Simple Count) to verify inventory accuracy against system records and reconcile discrepancies
+    - Managed inventory stowage and final order packing, ensuring strict adherence to safety protocols, proper handling of hazardous materials, and accurate weight labeling
+    - Proactively identified and reported safety hazards to maintain a secure work environment
         """)
 
 # PROJECTS
