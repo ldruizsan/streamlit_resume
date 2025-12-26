@@ -62,7 +62,7 @@ PROJECTS = {
         "tags": ["Excel", "Data Analysis", "Data Visualization","Marketing"]
         }
 }
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 st.title("Welcome to my digital resume!")
 
 # LOAD ASSETS AND CSS
