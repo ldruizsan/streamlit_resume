@@ -14,7 +14,7 @@ PAGE_TITLE = "Digital Resume | Luis Ruiz-Santiago"
 PAGE_ICON = ":wave:"
 NAME = "Luis Ruiz-Santiago"
 DESCRIPTION = """
-I am data analyst with experience in digital transformation projects, leverage generative AI, and cloud platforms to drive data-driven decision-making and actionable insights.
+I am a Data Analyst experienced in building intelligent systems. My work ranges from deploying serverless applications on AWS and developing AI agents with RAG capabilities, to creating interactive dashboards in Tableau and Streamlit. I leverage Python, Generative AI, and cloud platforms to drive data-driven decision-making and digital transformation.
 """
 
 EMAIL = "ldruizsan@proton.me"
@@ -25,9 +25,13 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "Pet Medication Calendar - Streamlit app to track pet medication schedules": {
+    "EPA Air Quality Data Collection & Visualization - Use autonomous AI agents to retrieve air quality data using the AQS API, export to Google Sheets, retry logic, and email notification setup": {
+        "link": "https://github.com/ldruizsan/lindy_agent",
+        "tags": ["Python", "AI Agents", "Error handling", "API Requests", "Email Notifications"]
+    },
+    "Pet Medication Calendar - Flask app to track pet medication schedules": {
         "link": "https://github.com/ldruizsan/PetMedicationCalendar",
-        "tags": ["Streamlit", "Python", "Data Visualization", "Web App"]
+        "tags": ["Flask", "Python", "Data Visualization", "Web App", "HTML"]
     },
     "AI Agents in Chemical Engineering - Agent swarm for chemical engineering problem solving, with RAG system": {
         "link": "https://github.com/ldruizsan/chem_eng_agents",
