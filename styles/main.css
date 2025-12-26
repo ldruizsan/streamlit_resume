@@ -41,7 +41,7 @@ header {visibility: hidden}
 
 /* Custom Page Width */
 .block-container {
-    max-width: 150px;
+    max-width: 200px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: auto;
