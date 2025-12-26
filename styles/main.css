@@ -38,3 +38,11 @@ header {visibility: hidden}
     padding: 0.1em 0.2em;
     border-radius: 0.3em;
 }
+
+/* Custom Page Width */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+}
