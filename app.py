@@ -25,7 +25,7 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "EPA Air Quality Data Collection & Visualization - Use autonomous AI agents to retrieve air quality data using the AQS API, export to Google Sheets, retry logic, and email notification setup": {
+    "EPA Air Quality Data Collection & Visualization - Use autonomous AI agents to retrieve air quality data using the AQS API": {
         "link": "https://github.com/ldruizsan/lindy_agent",
         "tags": ["Python", "AI Agents", "Error handling", "API Requests", "Email Notifications"]
     },
