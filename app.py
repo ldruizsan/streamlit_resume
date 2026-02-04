@@ -5,7 +5,7 @@ from PIL import Image
 # PATH SETTINGS
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "resume.pdf"
+resume_file = current_dir / "assets" / "Luis_Ruiz_Santiago_2026.pdf"
 profile_pic = current_dir / "assets" / "profile_pic.jpeg"
 
 
@@ -17,7 +17,7 @@ DESCRIPTION = """
 I am a Data Analyst experienced in building intelligent systems. My work ranges from deploying serverless applications on AWS and developing AI agents with RAG capabilities, to creating interactive dashboards in Tableau and Streamlit. I leverage Python, Generative AI, and cloud platforms to drive data-driven decision-making and digital transformation.
 """
 
-EMAIL = "ldruizsan@proton.me"
+EMAIL = "ldruizsan1011@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/luisruiz1",
     "Github": "https://www.github.com/ldruizsan",
