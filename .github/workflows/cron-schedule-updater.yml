@@ -1,0 +1,28 @@
+# Source - https://stackoverflow.com/a/77893065
+# Posted by musstang62
+# Retrieved 2026-02-10, License - CC BY-SA 4.0
+
+name: cron-schedule-updater
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 */10 * * *'
+ 
+jobs:
+  empty_commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - run: git config user.email "ldruizsan@gmail.com"
+    - run: git config user.name "Luis Ruiz-Santiago"
+
+    - name: Create Empty Commit
+      run: git commit --allow-empty -m "Empty commit."
+
+    - name: Push Empty Commit
+      run: git push origin main  # Change 'main' to your branch name
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
